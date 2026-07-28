@@ -1,12 +1,12 @@
 export default function Header() {
   return (
     <header className="w-full border-b border-white/10 bg-[#0b0c17]/80 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#" className="flex items-center gap-3" aria-label="Autheo DevHub home">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#00fed9] text-lg font-extrabold text-[#0b0c17] shadow-[0_0_24px_rgba(0,254,217,0.35)]">A</div>
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
+        <a href="#" className="flex items-center gap-3.5" aria-label="Autheo DevHub home">
+          <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[#00fed9] text-2xl font-extrabold text-[#0b0c17] shadow-[0_0_24px_rgba(0,254,217,0.35)]">A</div>
           <div className="leading-none">
-            <div className="font-bold tracking-tight text-white">autheo</div>
-            <div className="mt-1 text-[9px] font-bold uppercase tracking-[0.22em] text-[#00fed9]">DevHub</div>
+            <div className="text-lg font-extrabold tracking-tight text-white">autheo</div>
+            <div className="mt-1 text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#00fed9]">DevHub</div>
           </div>
         </a>
         <nav className="hidden items-center gap-7 text-sm font-medium text-slate-300 md:flex">

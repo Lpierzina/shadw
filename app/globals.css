@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-  --bg: #0f172a;
-  --muted: #94a3b8;
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --aqua: #00fed9;
+  --aqua-deep: #007262;
+  --ink: #0b0c17;
+  --stone: #313847;
 }
 
 @tailwind base;
@@ -16,10 +19,23 @@ html, body, #__next {
 
 html {
   font-family: var(--font-sans);
-  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
-  color: #0f172a;
+  background: var(--ink);
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at 85% 0%, rgba(0, 254, 217, 0.1), transparent 25rem),
+    radial-gradient(circle at 8% 35%, rgba(58, 78, 255, 0.1), transparent 30rem),
+    var(--ink);
 }
 
 a {
   color: inherit;
+}
+
+::selection {
+  background: var(--aqua);
+  color: var(--ink);
 }

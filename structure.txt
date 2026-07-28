@@ -1,0 +1,55 @@
+autheo-devhub/
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
+├── app/
+│   ├── api/
+│   │   └── health/
+│   │       └── route.ts
+│   │
+│   ├── docs/
+│   │   └── page.tsx
+│   │
+│   ├── playground/
+│   │   └── page.tsx
+│   │
+│   ├── sdk/
+│   │   └── page.tsx
+│   │
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── ui/
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── badge.tsx
+│   │   └── separator.tsx
+│   │
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── Hero.tsx
+│   ├── DevHubNav.tsx
+│   ├── FeatureGrid.tsx
+│   ├── CodePreview.tsx
+│   └── NetworkStats.tsx
+│
+├── lib/
+│   └── utils.ts
+│
+├── public/
+│   └── ...
+│
+├── .eslintrc.json
+├── .gitignore
+├── .prettierrc
+├── components.json
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md

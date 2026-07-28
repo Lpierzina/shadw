@@ -10,3 +10,13 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Frontend generated/dependency output
+node_modules/
+dist/
+build/
+.next/
+.vercel/
+.env
+.env.local
+.env.*.local

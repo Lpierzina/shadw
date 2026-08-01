@@ -11,10 +11,10 @@ export default function Page() {
         <section id="platform" className="border-t border-emerald-50/10 py-20">
           <div className="grid gap-8 md:grid-cols-[.85fr_1.15fr]">
             <div>
-              <div className="font-mono text-[10px] text-[#8dffae]">01 — THE DEVHUB PLATFORM</div>
+              <div className="font-mono text-[10px] text-[#8dffae]">01 — THE AUTHEO PLATFORM</div>
               <h2 className="mt-4 text-3xl font-bold leading-[1.02] tracking-tight text-emerald-50 md:text-4xl">One platform. Every infrastructure layer.</h2>
             </div>
-            <p className="max-w-2xl text-sm leading-7 text-emerald-50/60">Modern applications require more than servers and databases. DevHub unifies the complete software stack into a single developer-controlled infrastructure layer.</p>
+            <p className="max-w-2xl text-sm leading-7 text-emerald-50/60">Modern applications require more than servers and databases. Autheo unifies the complete software stack into a single developer-controlled infrastructure layer.</p>
           </div>
           <div className="mt-10 grid gap-4 md:grid-cols-3">
             <article className="rounded-md border border-emerald-50/15 bg-[#08261b]/60 p-5 transition hover:border-[#35e879]/50">
@@ -38,7 +38,7 @@ export default function Page() {
           <div className="rounded-xl border border-[#35e879]/25 bg-gradient-to-br from-[#0d3b27] to-[#08261b] p-8 md:p-10">
             <div className="font-mono text-[10px] font-medium text-[#8dffae]">02 — FOR BUILDERS</div>
             <h2 className="mt-12 max-w-xl text-4xl font-extrabold leading-[1.04] tracking-tight text-emerald-50">Global compute resources, available when developers need them.</h2>
-            <p className="mt-5 max-w-lg text-sm leading-6 text-emerald-50/60">DevHub transforms compute into an accessible resource layer. Deploy and scale applications across distributed environments.</p>
+            <p className="mt-5 max-w-lg text-sm leading-6 text-emerald-50/60">Autheo transforms compute into an accessible resource layer. Deploy and scale applications across distributed environments.</p>
             <a href="#docs" className="mt-8 inline-block rounded bg-[#35e879] px-4 py-2.5 text-xs font-bold text-[#031811] transition hover:bg-[#8dffae]">Explore the platform <span aria-hidden="true">→</span></a>
           </div>
           <div id="resources" className="rounded-xl border border-emerald-50/15 bg-[#08261b]/70 p-8 md:p-10">

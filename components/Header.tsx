@@ -1,23 +1,23 @@
 export default function Header() {
   return (
-    <header className="w-full border-b border-white/10 bg-[#0b0c17]/80 backdrop-blur">
+    <header className="w-full border-b border-emerald-300/10 bg-[#031811]/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
-        <a href="#" className="flex items-center gap-3.5" aria-label="Autheo DevHub home">
-          <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[#00fed9] text-2xl font-extrabold text-[#0b0c17] shadow-[0_0_24px_rgba(0,254,217,0.35)]">A</div>
+        <a href="#" className="flex items-center gap-3" aria-label="DevHub home">
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#35e879] text-sm font-extrabold text-[#031811] shadow-[0_0_24px_rgba(53,232,121,0.3)]">D</div>
           <div className="leading-none">
-            <div className="text-lg font-extrabold tracking-tight text-white">autheo</div>
-            <div className="mt-1 text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#00fed9]">DevHub</div>
+            <div className="text-sm font-extrabold tracking-tight text-white">DevHub</div>
+            <div className="mt-0.5 text-[8px] font-bold uppercase tracking-[0.16em] text-emerald-200/60">Developer infrastructure</div>
           </div>
         </a>
-        <nav className="hidden items-center gap-7 text-sm font-medium text-slate-300 md:flex">
-          <a href="#platform" className="transition hover:text-[#00fed9]">Platform</a>
-          <a href="#build" className="transition hover:text-[#00fed9]">Build</a>
-          <a href="#resources" className="transition hover:text-[#00fed9]">Resources</a>
-          <a href="#network" className="transition hover:text-[#00fed9]">Network</a>
+        <nav className="hidden items-center gap-6 text-[10px] font-medium text-emerald-50/70 md:flex">
+          <a href="#platform" className="transition hover:text-[#35e879]">Docs</a>
+          <a href="#build" className="transition hover:text-[#35e879]">Platform</a>
+          <a href="#resources" className="transition hover:text-[#35e879]">Developers</a>
+          <a href="#network" className="transition hover:text-[#35e879]">Resources</a>
         </nav>
-        <div className="flex items-center gap-3 text-sm font-semibold">
-          <a href="#docs" className="hidden text-slate-300 transition hover:text-white sm:block">Documentation</a>
-          <a href="#start" className="rounded-lg bg-[#00fed9] px-4 py-2 text-[#0b0c17] transition hover:bg-white">Start building</a>
+        <div className="flex items-center gap-3 text-xs font-semibold">
+          <a href="#docs" className="hidden text-emerald-50/70 transition hover:text-white sm:block">Sign in</a>
+          <a href="#start" className="rounded bg-[#35e879] px-3 py-2 text-[#031811] transition hover:bg-[#8dffae]">Start Building</a>
         </div>
       </div>
     </header>

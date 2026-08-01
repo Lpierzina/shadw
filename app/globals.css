@@ -3,10 +3,12 @@
 :root {
   --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --font-mono: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
-  --aqua: #00fed9;
-  --aqua-deep: #007262;
-  --ink: #0b0c17;
-  --stone: #313847;
+  --green: #35e879;
+  --green-bright: #8dffae;
+  --green-deep: #157a42;
+  --ink: #031811;
+  --surface: #08261b;
+  --stone: #174433;
 }
 
 @tailwind base;
@@ -26,8 +28,8 @@ html {
 
 body {
   background:
-    radial-gradient(circle at 85% 0%, rgba(0, 254, 217, 0.1), transparent 25rem),
-    radial-gradient(circle at 8% 35%, rgba(58, 78, 255, 0.1), transparent 30rem),
+    radial-gradient(circle at 85% 0%, rgba(53, 232, 121, 0.12), transparent 27rem),
+    radial-gradient(circle at 8% 35%, rgba(16, 116, 67, 0.13), transparent 32rem),
     var(--ink);
 }
 
@@ -36,6 +38,6 @@ a {
 }
 
 ::selection {
-  background: var(--aqua);
+  background: var(--green);
   color: var(--ink);
 }

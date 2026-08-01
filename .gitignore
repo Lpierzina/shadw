@@ -20,3 +20,13 @@ build/
 .env
 .env.local
 .env.*.local
+
+# Frontend generated/dependency output
+node_modules/
+dist/
+build/
+.next/
+.vercel/
+.env
+.env.local
+.env.*.local

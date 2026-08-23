@@ -1,27 +1,25 @@
-# Autheo.dev frontend
+# u_user_3H95oVoJTbx8kk9w3t70NhZA6bw — OpenEdge GitOps
 
-This repository contains a Next.js (App Router) + TypeScript + Tailwind CSS starter for the Autheo developer platform frontend.
+> This repository is **auto-generated and managed by OpenEdge GitOps**. It is the
+> declarative source of truth for the **u_user_3H95oVoJTbx8kk9w3t70NhZA6bw** org/team.
 
-Getting started
+Changes to runtime, regions, tier, env keys, domains or project settings in the
+OpenEdge dashboard are committed back here automatically. Pushing changes to a
+project's source repo triggers a new build + deployment.
 
-1. Install dependencies
+## Layout
 
-   npm install
+| Path | Description |
+|------|-------------|
+| `openedge.yaml` | Org spec — all projects as a YAML list |
+| `.openedge/meta.yaml` | Platform meta state |
+| `projects/*.yaml` | One spec file per project |
+| `.github/workflows/openedge-deploy.yml` | CI that triggers OpenEdge on push |
 
-2. Run dev server
+## Projects (2)
 
-   npm run dev
+- `minecraft-server2`
+- `minecraft-server3`
 
-Notes
-
-- Tailwind is configured in tailwind.config.js and the global stylesheet is at app/globals.css.
-- Lint with `npm run lint` and typecheck with `npm run typecheck`.
-
-Next steps I can help with
-
-- Design system or component library (Radix + Tailwind, Chakra)
-- Layouts for auth, dashboard, and docs
-- Storybook and UI tests
-- CI/CD and Vercel configuration
-
-
+---
+_Plan: pro · Generated 2026-08-23T16:58:36.299Z_

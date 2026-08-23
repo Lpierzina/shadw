@@ -1,0 +1,38 @@
+apiVersion: openedge.dev/v1
+kind: Org
+metadata:
+  name: u_user_3H95oVoJTbx8kk9w3t70NhZA6bw
+  slug: u_user_3H95oVoJTbx8kk9w3t70NhZA6bw
+  plan: pro
+  generatedAt: "2026-08-23T16:58:36.299Z"
+  managedBy: OpenEdge GitOps
+projects:
+  - name: minecraft-server2
+    framework: auto
+    build:
+      installCommand: ""
+      buildCommand: ""
+      outputDirectory: ""
+    functions:
+      runtime: fluid
+      maxDuration: 300
+      memory: 2048
+      regions: []
+      failover: false
+  - name: minecraft-server3
+    framework: auto
+    build:
+      installCommand: ""
+      buildCommand: ""
+      outputDirectory: ""
+    functions:
+      runtime: fluid
+      maxDuration: 300
+      memory: 2048
+      regions: []
+      failover: false
+databases:
+  - name: minecraft-server2-db
+    kind: postgres
+    region: san-jose
+    mode: live

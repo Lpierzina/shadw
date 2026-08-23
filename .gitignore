@@ -1,32 +1,5 @@
-node_modules
-.next
-.env.local
-.env.*.local
-dist
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Frontend generated/dependency output
+# OpenEdge GitOps — managed config repo
 node_modules/
-dist/
-build/
-.next/
-.vercel/
 .env
-.env.local
-.env.*.local
-
-# Frontend generated/dependency output
-node_modules/
-dist/
-build/
-.next/
-.vercel/
-.env
-.env.local
-.env.*.local
+.env.*
+.DS_Store
